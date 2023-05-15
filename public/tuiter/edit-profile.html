@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<table>
+    <tr>
+        <td class="sidebar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="messages.html">Messages</a></li>
+                <li><a href="bookmarks.html">Bookmarks</a></li>
+                <li><a href="lists.html">Lists</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="tuit.html">Tuit</a></li>
+                <li><a href="reply.html">Reply</a></li>
+            </ul>
+        </td>
+        <td class="content">
+            <br>
+<a href="profile.html">Back</a>
+<h1>Tuiter</h1>
+<h2>Edit Profile</h2>
+<br>
+<a href="profile.html">Save</a>
+<br>
+<img src="strawhat.jpg"
+     height="200px"/>
+<br>
+<input type="file"/>
+<br>
+<img src="luffy.jpg"
+     width="48px"
+     height="48px"/>
+<br>
+<input type="file"/>
+<hr>
+<div class="input-container">
+  <label for="name-input">Name:</label>
+  <br>
+  <input type="text" id="name-input" value="WebDev" placeholder="Name">
+</div>
+<hr>
+
+<script>
+    document.querySelector('label').addEventListener('click', () => {
+      document.querySelector('input').focus();
+    });
+ </script>
+
+<label for="bio-textarea">Bio:</label>
+<br>
+<textarea id="bio-textarea" rows="10" cols="50" value="" placeholder="Enter your bio information here...">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec neque ante. Vestibulum hendrerit ultricies ultrices. In aliquam erat ut est volutpat, id lacinia diam rutrum. Vestibulum in porta eros. Fusce ligula neque, consectetur eget justo et, sollicitudin interdum neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus cursus diam, nec maximus ante condimentum ut. Integer efficitur nibh vitae turpis sagittis condimentum. Pellentesque molestie urna risus, nec gravida libero faucibus sit amet. Sed interdum odio luctus lectus semper tempor. Nam dapibus, metus eu venenatis tristique, elit quam hendrerit sapien, ac sodales ipsum enim nec metus. Etiam in risus vitae diam sollicitudin commodo.
+</textarea>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
